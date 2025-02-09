@@ -5,7 +5,7 @@ class QuizzBrain:
         self.score = 0
 
     def still_has_questions(self):
-        while self.question_number != 12:
+        while self.question_number != 10:
             return True
 
     def next_question(self):
